@@ -33,6 +33,7 @@ li {
 .navbar-brand {
   color: #F38181;
   transition-duration: .3s;
+  font-family: 'Pacifico', cursive;
 }
 .navbar-brand:hover {
   color: #c36363;
@@ -203,7 +204,41 @@ li {
   background-color: rebeccapurple;
 }
 
+
+/*------------------Footer---------------*/
+
+
 .footerSection {
-  height: 50px;
-  background-color: yellow;
+  height: 185px;
+  background-color: white;
+  color: #F38181;
+  display: flex;
+  justify-content: space-around;
 }
+
+.footerInfo {
+  padding: 20px;
+  width: 40%;
+}
+.footerInfo h1 {
+  margin-top: 10px;
+  font-family: 'Roboto Slab', 'serif';
+}
+.footerInfo p {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.footerLinks {
+  display: flex;
+  align-items: center;
+}
+
+.footerLinks ul {
+  display: flex;
+  flex-direction: column;
+}
+.footerLinks li {
+  margin-bottom: 7px;
+}
+
+/*------------------/Footer---------------*/
