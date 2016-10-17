@@ -25,7 +25,7 @@ const App = React.createClass({
         <Quote />
         <Map />
         <Download />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
     )

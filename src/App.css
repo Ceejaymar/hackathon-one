@@ -84,6 +84,7 @@ li {
   /*justify-content: center;*/
   align-items: center;
   color: white;
+  border-top: 1px solid #efefef;
 }
 .aboutInfo h1 {
   margin-top: 80px;
@@ -152,6 +153,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
 }
 
 .icecreamQuote h1 {
@@ -166,13 +169,44 @@ li {
 /*------------------/Quote---------------*/
 
 
+
+/*------------------Map---------------*/
+
+
 .mapSection {
-  height: 900px;
-  background-color: #FCE38A;
+  height: 700px;
+  display: flex;
+}
+
+.mapContent {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapContent h1 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.mapContent p {
+  width: 60%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.mapGoogle {
+  width: 50%;
+  height: inherit;
+  background-color: #fce38a;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
 }
 
 
-/*------------------/Quote---------------*/
+/*------------------/Map---------------*/
+
 
 
 
@@ -181,28 +215,76 @@ li {
 .downloadSection {
   height: 700px;
   display: flex;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
 }
 
 .downloadImage {
+  /*margin: 30px;*/
   width: 50%;
   height: inherit;
-  background-color: red;
-  background-image: url('./images/icecream1.jpg');
-  background-size: cover;
+  background-color: #95e1d3;
+  background-image: url('./images/icecreamIphone2.png'), url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+  background-size: contain;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  /*display: flex;
+  justify-content: center;*/
 }
 
 .downloadContent {
   width: 50%;
   height: inherit;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.contentParagraph {
+  width: 60%;
+  font-size: 2em;
+  text-align: center;
+}
 
+.dButton {
+  width: 250px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2em;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 5px;
+  transition-duration: .6s;
+  border: 1px solid #F38181;
+  background-color: #F38181;
+  color: white;
+}
+
+.dButton:hover {
+  color: #F38181;
+  background-color: white;
+  font-weight: 400;
+}
+
+.dButton span {
+  font-family: 'Pacifico', cursive;
+}
 /*------------------/Download---------------*/
+
+
+
+/*------------------Contact---------------*/
+
+
 .contactSection {
   height: 900px;
-  background-color: rebeccapurple;
+  background-color: white;
 }
+
+
+/*------------------/Contact---------------*/
+
 
 
 /*------------------Footer---------------*/
@@ -214,6 +296,7 @@ li {
   color: #F38181;
   display: flex;
   justify-content: space-around;
+  /*border-top: 1px solid #efefef;*/
 }
 
 .footerInfo {

@@ -5,7 +5,7 @@ const Footer = React.createClass({
     return (
       <footer className="footerSection">
         <div className="footerInfo">
-          <h1>ITTA</h1>
+          <h1>isee</h1>
           <p>Pop-up banh mi offal normcore.  Copper mug pok pok meggings hoodie lo-fi polaroid flexitarian, fap synth.  Cardigan whatever bushwick, microdosing XOXO tilde poke PBR</p>
           <div>
             <i className="facebook-square"></i>
@@ -20,7 +20,8 @@ const Footer = React.createClass({
             <li>Careers</li>
           </ul>
         </div>
-        {/* <div  className="footerBottom">
+        {/* <hr />
+        <div  className="footerBottom">
 
         </div> */}
       </footer>

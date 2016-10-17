@@ -4,7 +4,7 @@ const Navbar = React.createClass({
   render: function () {
     return (
       <nav className="navbar navbar-fixed-top " >
-        <a className="navbar-brand">ITTA</a>
+        <a className="navbar-brand">isee</a>
         <ul className="nav navbar-nav pull-right">
           <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
           <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
