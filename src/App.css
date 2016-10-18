@@ -8,6 +8,10 @@ body, html {
   padding: 0;
 }
 
+button:focus {
+  outline: none;
+}
+
 /*-----------------Navbar-------------------*/
 nav {
   background-color: white;
@@ -34,6 +38,7 @@ li {
   color: #F38181;
   transition-duration: .3s;
   font-family: 'Pacifico', cursive;
+  font-size: 2.5em;;
 }
 .navbar-brand:hover {
   color: #c36363;
@@ -148,7 +153,7 @@ li {
 
 
 .icecreamQuote {
-  height: 150px;
+  height: 125px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -158,7 +163,7 @@ li {
 }
 
 .icecreamQuote h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-family: 'Pacifico', cursive;
   margin: 0;
   color: rgba(0, 0, 0, 0.7);
@@ -176,14 +181,15 @@ li {
 .mapSection {
   height: 700px;
   display: flex;
+  justify-content: center;
 }
 
 .mapContent {
   width: 50%;
-  height: inherit;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -193,8 +199,38 @@ li {
 
 .mapContent p {
   width: 60%;
+  font-family: 'Roboto', sans-serif;
   font-size: 2em;
+  font-weight: 300;
   text-align: center;
+}
+
+.mapSearchGroup {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mapContent input {
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.mapContent input:focus {
+  outline-width: thin;
+}
+
+.mapContent button {
+  /*width: 250px;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition-duration: .6s;
+  border: 1px solid  #fce38a;
+  background-color:  #fce38a;
+  /*color: white;*/
 }
 
 .mapGoogle {
@@ -225,7 +261,7 @@ li {
   height: inherit;
   background-color: #95e1d3;
   background-image: url('./images/icecreamIphone2.png'), url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
-  background-size: contain;
+  background-size: 325px, contain;
   background-repeat: no-repeat, repeat;
   background-position: center;
   /*display: flex;
@@ -241,17 +277,21 @@ li {
   justify-content: space-around;
   align-items: center;
 }
+.downloadContent h1 {
+  font-family: 'Roboto Slab', serif;
+}
 
 .contentParagraph {
   width: 60%;
   font-size: 2em;
   text-align: center;
+  font-weight: 300;
 }
 
 .dButton {
   width: 250px;
   font-family: 'Roboto', sans-serif;
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 300;
   padding: 10px;
   border-radius: 5px;
@@ -269,6 +309,8 @@ li {
 
 .dButton span {
   font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+  /*height: 52px;*/
 }
 /*------------------/Download---------------*/
 

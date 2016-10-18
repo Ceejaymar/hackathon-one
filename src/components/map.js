@@ -8,7 +8,7 @@ const Map = React.createClass({
           <h1>Ice Cream Shops</h1>
           <p>Is it too cold for the Trucks to be out? Or maybe all the trucks unavailable. Find the closest Icecream shp near you! Enter your zip code below.</p>
           <div className="mapSearchGroup">
-            <input></input>
+            <input placeholder=""></input>
             <button type="Submit">Search</button>
           </div>
         </div>
