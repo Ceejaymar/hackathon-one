@@ -4,7 +4,14 @@ const Contact = React.createClass({
   render: function(){
     return (
       <section id="contact" className="contactSection">
+        <div className="contactContent">
+          <h1>Reach out to us</h1>
+          <p> We love hearing from you. We all scream for ice cream, so give us a shout below.</p>
+          <button>Contact Us</button>
+        </div>
+        <div className="contactImage">
 
+        </div>
       </section>
     )
   }
