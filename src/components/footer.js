@@ -9,8 +9,11 @@ const Footer = React.createClass({
             <h1>isee</h1>
             <p>Pop-up banh mi offal normcore.  Copper mug pok pok meggings hoodie lo-fi polaroid flexitarian, fap synth.  Cardigan whatever bushwick, microdosing XOXO tilde poke PBR</p>
             <div>
-              <i className="facebook-square"></i>
+              {/* <i className="facebook-square"></i> */}
             </div>
+          </div>
+          <div className="footerLogo">
+
           </div>
           <div className="footerLinks">
             <ul>
@@ -31,6 +34,5 @@ const Footer = React.createClass({
     )
   }
 })
-
 
 export default Footer;

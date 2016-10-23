@@ -4,11 +4,13 @@ const Hero = React.createClass({
   render: function(){
     return (
       <section id="home" className="heroSection">
-        {/* <h1>Hello World!</h1> */}
+        <div>
+          <h1>isee</h1>
+          <h2>Happiness is... the sound of an ice cream truck</h2>
+        </div>
       </section>
     )
   }
 })
-
 
 export default Hero;
